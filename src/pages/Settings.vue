@@ -315,6 +315,11 @@
                     <p>Это подходит для <strong>тех, у кого стоит другая авторизация</strong> перед открытием Uptime Kuma, например Cloudflare Access.</p>
                     <p>Пожалуйста, используйте с осторожностью.</p>
                 </template>
+                <template v-else-if="$i.locale === 'nb-NO' ">
+                    <p>Er du sikker på at du vill <strong>skru av auth</strong>?</p>
+                    <p>Det er for <strong>noen som har 3rd-parti auth</strong> foran Uptime Kuma e.g Cloudflare Access.</p>
+                    <p>Vennligst bruk det forsiktig.</p>
+                </template>
 
                 <!-- English (en) -->
                 <template v-else>

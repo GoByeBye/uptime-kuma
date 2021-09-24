@@ -18,6 +18,7 @@ import trTR from "./languages/tr-TR";
 import svSE from "./languages/sv-SE";
 import zhCN from "./languages/zh-CN";
 import zhHK from "./languages/zh-HK";
+import nbNO from "./languages/nb-NO";
 
 const languageList = {
     en,
@@ -30,6 +31,7 @@ const languageList = {
     "it-IT": itIT,
     "ja": ja,
     "da-DK": daDK,
+    "nb-NO": nbNO,
     "sr": sr,
     "sr-latn": srLatn,
     "sv-SE": svSE,
